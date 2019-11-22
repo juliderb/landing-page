@@ -15,6 +15,7 @@ body{
     font-weight: 300;
     color: #525f7f;
 }
+
 .button{
     font-size: 15px;
     font-weight: 700;
@@ -26,6 +27,14 @@ body{
      border: none;
      padding: 0 10px;
      text-transform: uppercase;
+}
+.section__title{
+    font-size: 48px;
+    color: #32325d;
+}
+.section__text{
+    font-size: 23px;
+    line-height: 2;
 }
 /* Контейнер */
 .container{
@@ -100,12 +109,6 @@ body{
 .about__title{
     margin-top: 210px;
     margin-bottom: 40px;
-    font-size: 48px;
-    color: #32325d;
-}
-.about__text{
-    font-size: 23px;
-    line-height: 2;
 }
 .about-card{
     margin-bottom: 50px;
@@ -126,3 +129,27 @@ body{
     line-height: 1.6;
 }
 
+/* Услуги */
+.services{
+    background: url('../img/bg-services.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+.services-row{
+    margin-top: 145px;
+}
+.services-cards{
+    margin-bottom: 170px;
+}
+.services-cards__title{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 400;
+     color: #32325d;
+}
+.services-cards__text{
+    font-size: 16px;
+    line-height: 1.5;
+}
