@@ -201,3 +201,22 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+/* Секция запрос */
+.request{
+    padding: 100px 0;
+    background-color: #fafaff;
+}
+.request-content{
+    display: flex;
+    justify-content: space-between;
+}
+.request-form input{
+    padding-left: 40px;
+    width: 560px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 2.9;
+    border: none;
+    background: #fff url('../img/get.png') no-repeat  center right;
+}
