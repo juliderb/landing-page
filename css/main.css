@@ -29,6 +29,7 @@ body{
      text-transform: uppercase;
 }
 .section__title{
+    margin-bottom: 50px;
     font-size: 48px;
     color: #32325d;
 }
@@ -172,4 +173,31 @@ body{
 }
 .margin-top{
     margin-top: 235px;
+}
+
+/* Секция финансы */
+.finance{
+    margin: 100px 0;
+    background: url('../img/bg-finance.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.finance__title{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #32325d;
+}
+.finance-list{
+    list-style-image: url('../img/checkbox.svg');
+    margin-left: 20px;
+}
+.finance-list__item{
+    font-size: 20px;
+    line-height: 3.9;
+}
+.finance-group{
+    display: flex;
+    justify-content: space-between;
 }
