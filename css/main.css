@@ -23,7 +23,7 @@ body{
      color: #fff;
      border-radius: 3px;
      background-color: #845cff;
-     box-shadow: -6.691px 7.431px 20px 0px rgba(132, 92, 255, 0.2);
+     box-shadow: -6.7px 7.4px 20px 0px rgba(132, 92, 255, 0.2);
      border: none;
      padding: 0 10px;
      text-transform: uppercase;
@@ -61,14 +61,14 @@ body{
     color: #fff;
     border-radius: 3px;
     background-color: #845cff;
-    box-shadow: -6.691px 7.431px 20px 0px rgba(132, 92, 255, 0.2);
+    box-shadow: -6.7px 7.4px 20px 0px rgba(132, 92, 255, 0.2);
     text-decoration: none;
 }
 .header-nav__link_purple{
     color: #fff;
     border-radius: 3px;
     background-color: #845cff;
-    box-shadow: -6.691px 7.431px 20px 0px rgba(132, 92, 255, 0.2);
+    box-shadow: -6.7px 7.4px 20px 0px rgba(132, 92, 255, 0.2);
     margin-right: 0;
 }
 .hero{
@@ -115,7 +115,7 @@ body{
     height: 480px;
     padding: 60px 60px 100px 60px;
     border-radius: 10px;
-    box-shadow: -6.691px 7.431px 20px 0px rgba(212, 212, 250, 0.2);
+    box-shadow: -6.7px 7.4px 20px 0px rgba(212, 212, 250, 0.2);
     background-color: #fff;
 }
 
@@ -152,4 +152,24 @@ body{
 .services-cards__text{
     font-size: 16px;
     line-height: 1.5;
+}
+
+/* Секция безопасность */
+.safety{
+    padding: 100px 0;
+}
+.safety__title{
+    margin-bottom: 50px;
+}
+.safety-type{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.safety-type__drive,
+.safety-type__ride {
+    width: 200px;
+}
+.margin-top{
+    margin-top: 235px;
 }
