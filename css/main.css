@@ -50,6 +50,13 @@ body{
     padding-bottom: 205px;
     background: url('../img/bg-header.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+}
+.hamburger{
+    display: none;
+}
+.header-nav .close{
+    display: none;
 }
 .header-nav__link{
     font-size: 19px;
@@ -159,6 +166,9 @@ body{
 .safety{
     padding: 100px 0;
 }
+.safety img{
+    width: 100%;
+}
 .safety__title{
     margin-bottom: 50px;
 }
@@ -199,6 +209,7 @@ body{
 }
 .finance-group{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -213,7 +224,7 @@ body{
 }
 .request-form input{
     padding-left: 40px;
-    width: 560px;
+    max-width: 560px;
     font-size: 23px;
     font-weight: 400;
     line-height: 2.9;
@@ -279,7 +290,110 @@ body{
     text-decoration: none;
 }
 
+/* Адаптивность */
+@media screen and (max-width: 1024px){
+    .hero{
+        margin-top: 120px;
+    }
+}
+@media screen and (max-width: 800px){
+    .header-nav__link {
+        margin-right: 10px;
+    }
+    .hero__link{
+        margin-left: 0;
+    }
+    .about__title{
+        margin-top: 0;
+    }
+    .footer-phone{
+        font-size: 14px;
+    }
+    .finance__title{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .finance-list__item{
+        font-size: 14px;
+    }
+    .button{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 575px){
+    .header-adaptive{
+        position: relative;
+    }
+    .header-nav{
+        display: none;
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(179, 176, 176, 0.9);
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
 
+    }
+    .close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        z-index: 6;
+    }
+    .header-nav__link{
+        display: block;
+        width: 100%;
+    }
+    .header-nav__link_purple{
+        width: 100%;
+    }
+    .hamburger{
+        display: block;
+        font-size: 30px;
+    }
+    .hero__link{
+        font-size: 15px;
+    }
+    .section__title{
+        font-size: 30px;
+    }
+    .section__text{
+        font-size: 18px;
+    }
+    .about-card__title{
+    font-size: 18px;
+    }
+    .about-card__text{
+        font-size: 14px;
+    }
+
+    .request-content{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .request-form input{
+        padding-left: 10px;
+    }
+    .services-cards {
+        margin-bottom: 50px;
+    }
+    .footer{
+        padding: 50px 0;
+        text-align: center;
+    }
+    .footer-navbar{
+        margin-top: 45px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__copy{
+        margin-bottom: 10px;
+    }
+}
 
 
 
